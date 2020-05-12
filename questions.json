@@ -1,0 +1,24 @@
+[
+    {
+       "groupId": 0,
+       "groupName": "Demographics",
+       "questions": [
+            {
+              "id": 0,
+              "text": "What is your zip code?",
+              "answerType": "text"
+            }
+       ]
+    },
+    {
+       "groupId": 1,
+       "groupName": "Symptoms",
+       "questions": [
+            {
+              "id": 11,
+              "text": "What is your temperature?",
+              "answerType": "number"
+            }
+       ]
+    }
+]
