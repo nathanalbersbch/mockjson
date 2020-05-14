@@ -1,8 +1,4 @@
-
-      {
-            "groupId": 0,
-            "groupName": "Demographics",
-            "questions": [
+[
                   {
                         "id": 1,
                         "text": "Please indicate the individual's date of birth:",
@@ -76,6 +72,6 @@
                         ],
                         "dependencies": []
                   }
-            ]  
+           
       }
 
