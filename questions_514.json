@@ -1,81 +1,81 @@
 [
-    {
-       "groupId": 0,
-       "groupName": "Demographics",
-       "questions": [
-            {
-              "id": 1,
-              "text": "Please indicate the individual's date of birth:",
-              "recall": null,
-              "group": "initial",
-              "answerType": "date",
-              "possibleAnswers": [
-                    [1, 12],
-                    [1, 31],
-                    [1920, 2020]
-              ],
-              "dependencies": []
-            },
-           {
-                "id": 2,
-                "text": "Please indicate the Zip code of your current location:",
-                "recall": null,
-                "group": "daily",
-                "answerType": "string",
-                "possibleAnswers": [
-                      [0, 99999]
-                ],
-                "dependencies": []
-            },
-            {
-                "id": 3,
-                "text": "Please indicate if the individual has any of the following underlying medical conditions (select all that apply).",
-                "recall": null,
-                "group": "initial",
-                "answerType": "multipleSelects",
-                "possibleAnswers": [
-                      "Chronic lung disease",
-                      "Moderate to severe asthma",
-                      "Serious heart conditions",
-                      "Immunocompromised",
-                      "Severe obesity (BMI of 40 or higher)",
-                      "Diabetes",
-                      "Chronic kidney disease undergoing dialysis",
-                      "Liver disease",
-                      "None"
-                ],
-                "dependencies": []
-           },
-            {
-                "id": 4,
-                "text": "Please indicate the individual's <CROSS_SECTION>",
-                "recall": null,
-                "group": "initial",
-                "answerType": "multipleChoice",
-                "possibleAnswers": [
-                      "American Indian or Alaska Native",
-                      "Asian",
-                      "Black or African American",
-                      "Hispanic or Latino",
-                      "Native Hawaiian or Other Pacific Islander",
-                      "White",
-                      "Other",
-                      "I prefer not to say"
-                ],
-                "dependencies": []
-           },
-           {
-                  "id": 5,
-                  "text": "Are you experiencing <SYMPTOM>",
-                  "recall": null,
-                  "group": "daily",
-                  "answerType": "boolean",
-                  "possibleAnswers": [
-                        "Yes",
-                        "No"
-                  ],
-                  "dependencies": []
-             }
-       ]
-    }
+      {
+            "groupId": 0,
+            "groupName": "Demographics",
+            "questions": [
+                  {
+                        "id": 1,
+                        "text": "Please indicate the individual's date of birth:",
+                        "recall": null,
+                        "group": "initial",
+                        "answerType": "date",
+                        "possibleAnswers": [
+                              [1, 12],
+                              [1, 31],
+                              [1920, 2020]
+                        ],
+                        "dependencies": []
+                  },
+                  {
+                        "id": 2,
+                        "text": "Please indicate the Zip code of your current location:",
+                        "recall": null,
+                        "group": "daily",
+                        "answerType": "string",
+                        "possibleAnswers": [
+                              [0, 99999]
+                        ],
+                        "dependencies": []
+                  },
+                  {
+                        "id": 3,
+                        "text": "Please indicate if the individual has any of the following underlying medical conditions (select all that apply).",
+                        "recall": null,
+                        "group": "initial",
+                        "answerType": "multipleSelects",
+                        "possibleAnswers": [
+                              "Chronic lung disease",
+                              "Moderate to severe asthma",
+                              "Serious heart conditions",
+                              "Immunocompromised",
+                              "Severe obesity (BMI of 40 or higher)",
+                              "Diabetes",
+                              "Chronic kidney disease undergoing dialysis",
+                              "Liver disease",
+                              "None"
+                        ],
+                        "dependencies": []
+                  },
+                  {
+                        "id": 4,
+                        "text": "Please indicate the individual's <CROSS_SECTION>",
+                        "recall": null,
+                        "group": "initial",
+                        "answerType": "multipleChoice",
+                        "possibleAnswers": [
+                              "American Indian or Alaska Native",
+                              "Asian",
+                              "Black or African American",
+                              "Hispanic or Latino",
+                              "Native Hawaiian or Other Pacific Islander",
+                              "White",
+                              "Other",
+                              "I prefer not to say"
+                        ],
+                        "dependencies": []
+                  },
+                  {
+                        "id": 5,
+                        "text": "Are you experiencing <SYMPTOM>",
+                        "recall": null,
+                        "group": "daily",
+                        "answerType": "boolean",
+                        "possibleAnswers": [
+                              "Yes",
+                              "No"
+                        ],
+                        "dependencies": []
+                  }
+            ]  
+      }
 ]
