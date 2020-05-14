@@ -1,5 +1,6 @@
-{
-  [
+[
+      
+            
                   {
                         "id": 1,
                         "text": "Please indicate the individual's date of birth:",
@@ -73,6 +74,6 @@
                         ],
                         "dependencies": []
                   }
-           ]
-
-}
+              
+      
+]
