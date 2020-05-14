@@ -9,12 +9,12 @@
               "recall": null,
               "group": "initial",
               "answerType": "date",
-              "possibleAnswers: [
+              "possibleAnswers": [
                     [1, 12],
                     [1, 31],
                     [1920, 2020]
               ],
-              "dependencies: [],
+              "dependencies": []
             },
            {
                 "id": 2,
@@ -22,18 +22,18 @@
                 "recall": null,
                 "group": "daily",
                 "answerType": "string",
-                "possibleAnswers: [
+                "possibleAnswers": [
                       [0, 99999]
                 ],
-                "dependencies: [],
+                "dependencies": []
             },
             {
                 "id": 3,
                 "text": "Please indicate if the individual has any of the following underlying medical conditions (select all that apply).",
                 "recall": null,
                 "group": "initial",
-                "answerType": "multipleSelects,
-                "possibleAnswers: [
+                "answerType": "multipleSelects",
+                "possibleAnswers": [
                       "Chronic lung disease",
                       "Moderate to severe asthma",
                       "Serious heart conditions",
@@ -42,17 +42,17 @@
                       "Diabetes",
                       "Chronic kidney disease undergoing dialysis",
                       "Liver disease",
-                      "None",
+                      "None"
                 ],
-                "dependencies: [],
+                "dependencies": []
            },
             {
                 "id": 4,
                 "text": "Please indicate the individual's <CROSS_SECTION>",
                 "recall": null,
                 "group": "initial",
-                "answerType": "multipleChoice,
-                "possibleAnswers: [
+                "answerType": "multipleChoice",
+                "possibleAnswers": [
                       "American Indian or Alaska Native",
                       "Asian",
                       "Black or African American",
@@ -60,22 +60,22 @@
                       "Native Hawaiian or Other Pacific Islander",
                       "White",
                       "Other",
-                      "I prefer not to say",
+                      "I prefer not to say"
                 ],
-                "dependencies: [],
+                "dependencies": []
            },
            {
                   "id": 5,
                   "text": "Are you experiencing <SYMPTOM>",
                   "recall": null,
                   "group": "daily",
-                  "answerType": "boolean,
-                  "possibleAnswers: [
+                  "answerType": "boolean",
+                  "possibleAnswers": [
                         "Yes",
                         "No"
                   ],
-                  "dependencies: [],
-             },
+                  "dependencies": []
+             }
        ]
     }
 ]
