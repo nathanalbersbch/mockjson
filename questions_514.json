@@ -32,22 +32,6 @@
             ]
       },
       {
-            "id": 4,
-            "text": "Please indicate any underlying medical conditions (select all that apply).",
-            "group": "initial",
-            "answerType": "MULTIPLE_SELECT",
-            "possibleAnswers": [
-                  "American Indian or Alaska Native",
-                  "Asian",
-                  "Black or African American",
-                  "Hispanic or Latino",
-                  "Native Hawaiian or Other Pacific Islander",
-                  "White",
-                  "Other",
-                  "I prefer not to say"
-            ]
-      },
-      {
             "id": 5,
             "text": "Please indicate group.",
             "group": "initial",
@@ -57,24 +41,6 @@
                   "HR",
                   "Research & Development",
                   "Business Operations"
-            ]
-      },
-      {
-            "id": 6,
-            "text": "Please indicate any experience of the following symptoms in the past 72 hours (select all that apply).",
-            "group": "daily",
-            "answerType": "MULTIPLE_SELECT",
-            "possibleAnswers": [
-                  "Shortness of breath",
-                  "Loss of smell or taste",
-                  "Fever > 100.4",
-                  "Chills",
-                  "Muscle pain",
-                  "Vomitting",
-                  "More than 3 loose stools in 24 hours",
-                  "Sore throat",
-                  "Cough",
-                  "Loss of appetite"
             ]
       },
       {
