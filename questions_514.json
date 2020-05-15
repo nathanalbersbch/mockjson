@@ -3,34 +3,22 @@
             
                   {
                         "id": 1,
-                        "text": "Please indicate the individual's date of birth:",
-                        "recall": null,
+                        "text": "Please enter date of birth.",
                         "group": "initial",
-                        "answerType": "date",
-                        "possibleAnswers": [
-                              [1, 12],
-                              [1, 31],
-                              [1920, 2020]
-                        ],
-                        "dependencies": []
+                        "answerType": "DATE"
                   },
                   {
                         "id": 2,
-                        "text": "Please indicate the Zip code of your current location:",
+                        "text": "Please enter the Zip code of current location.",
                         "recall": null,
                         "group": "daily",
-                        "answerType": "string",
-                        "possibleAnswers": [
-                              [0, 99999]
-                        ],
-                        "dependencies": []
+                        "answerType": "ZIP"
                   },
                   {
                         "id": 3,
-                        "text": "Please indicate if the individual has any of the following underlying medical conditions (select all that apply).",
-                        "recall": null,
+                        "text": "Please indicate any underlying medical conditions (select all that apply).",
                         "group": "initial",
-                        "answerType": "multipleSelects",
+                        "answerType": "MULTIPLE_SELECT",
                         "possibleAnswers": [
                               "Chronic lung disease",
                               "Moderate to severe asthma",
@@ -41,15 +29,13 @@
                               "Chronic kidney disease undergoing dialysis",
                               "Liver disease",
                               "None"
-                        ],
-                        "dependencies": []
+                        ]
                   },
                   {
                         "id": 4,
-                        "text": "Please indicate the individual's <CROSS_SECTION>",
-                        "recall": null,
+                        "text": "Please indicate any underlying medical conditions (select all that apply).",
                         "group": "initial",
-                        "answerType": "multipleChoice",
+                        "answerType": "MULTIPLE_SELECT",
                         "possibleAnswers": [
                               "American Indian or Alaska Native",
                               "Asian",
@@ -59,21 +45,60 @@
                               "White",
                               "Other",
                               "I prefer not to say"
-                        ],
-                        "dependencies": []
+                        ]
                   },
                   {
                         "id": 5,
-                        "text": "Are you experiencing <SYMPTOM>",
-                        "recall": null,
-                        "group": "daily",
-                        "answerType": "boolean",
+                        "text": "Please indicate group.",
+                        "group": "initial",
+                        "answerType": "SINGLE_SELECT",
                         "possibleAnswers": [
-                              "Yes",
-                              "No"
+                              "Finance",
+                              "HR",
+                              "Research & Development",
+                              "Business Operations"
+                        ]
+                  },
+                  {
+                        "id": 6,
+                        "text": "Please indicate any experience of the following symptoms in the past 72 hours (select all that apply).",
+                        "group": "daily",
+                        "answerType": "MULTIPLE_SELECT",
+                        "possibleAnswers": [
+                              "Shortness of breath",
+                              "Loss of smell or taste",
+                              "Fever > 100.4",
+                              "Chills",
+                              "Muscle pain",
+                              "Vomitting",
+                              "More than 3 loose stools in 24 hours",
+                              "Sore throat",
+                              "Cough",
+                              "Loss of appetite"
                         ],
-                        "dependencies": []
-                  }
+                  },
+                  {
+                        "id": 7,
+                        "text": "Enter the estimated date of any possible exposure to a case of COVID-19. Or indicate if not applicable",
+                        "group": "daily",
+                        "answerType": "DATE",
+                        "show_skip_option": "TRUE",
+                  },
+                  {
+                        "id": 8,
+                        "text": "Ener the date of most recent COVID-19 test and indicate status of results. Select Not Applicable if you have not been tested.",
+                        "recall": "04/27/2020",
+                        "group": "daily",
+                        "answerType": "COVID_TEST",
+                        "possibleAnswers": [
+                              "Positive for COVID-19",
+                              "Negative for COVID-19",
+                              "Inconclusive",
+                              "Have not received results",
+                              "Not Applicable"
+                        ]
+                  },
+      
               
       
 ]
