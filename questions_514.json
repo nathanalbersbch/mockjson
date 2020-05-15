@@ -1,104 +1,104 @@
 [
       
             
-                  {
-                        "id": 1,
-                        "text": "Please enter date of birth.",
-                        "group": "initial",
-                        "answerType": "DATE"
-                  },
-                  {
-                        "id": 2,
-                        "text": "Please enter the Zip code of current location.",
-                        "recall": null,
-                        "group": "daily",
-                        "answerType": "ZIP"
-                  },
-                  {
-                        "id": 3,
-                        "text": "Please indicate any underlying medical conditions (select all that apply).",
-                        "group": "initial",
-                        "answerType": "MULTIPLE_SELECT",
-                        "possibleAnswers": [
-                              "Chronic lung disease",
-                              "Moderate to severe asthma",
-                              "Serious heart conditions",
-                              "Immunocompromised",
-                              "Severe obesity (BMI of 40 or higher)",
-                              "Diabetes",
-                              "Chronic kidney disease undergoing dialysis",
-                              "Liver disease",
-                              "None"
-                        ]
-                  },
-                  {
-                        "id": 4,
-                        "text": "Please indicate any underlying medical conditions (select all that apply).",
-                        "group": "initial",
-                        "answerType": "MULTIPLE_SELECT",
-                        "possibleAnswers": [
-                              "American Indian or Alaska Native",
-                              "Asian",
-                              "Black or African American",
-                              "Hispanic or Latino",
-                              "Native Hawaiian or Other Pacific Islander",
-                              "White",
-                              "Other",
-                              "I prefer not to say"
-                        ]
-                  },
-                  {
-                        "id": 5,
-                        "text": "Please indicate group.",
-                        "group": "initial",
-                        "answerType": "SINGLE_SELECT",
-                        "possibleAnswers": [
-                              "Finance",
-                              "HR",
-                              "Research & Development",
-                              "Business Operations"
-                        ]
-                  },
-                  {
-                        "id": 6,
-                        "text": "Please indicate any experience of the following symptoms in the past 72 hours (select all that apply).",
-                        "group": "daily",
-                        "answerType": "MULTIPLE_SELECT",
-                        "possibleAnswers": [
-                              "Shortness of breath",
-                              "Loss of smell or taste",
-                              "Fever > 100.4",
-                              "Chills",
-                              "Muscle pain",
-                              "Vomitting",
-                              "More than 3 loose stools in 24 hours",
-                              "Sore throat",
-                              "Cough",
-                              "Loss of appetite"
-                        ],
-                  },
-                  {
-                        "id": 7,
-                        "text": "Enter the estimated date of any possible exposure to a case of COVID-19. Or indicate if not applicable",
-                        "group": "daily",
-                        "answerType": "DATE",
-                        "show_skip_option": "TRUE",
-                  },
-                  {
-                        "id": 8,
-                        "text": "Ener the date of most recent COVID-19 test and indicate status of results. Select Not Applicable if you have not been tested.",
-                        "recall": "04/27/2020",
-                        "group": "daily",
-                        "answerType": "COVID_TEST",
-                        "possibleAnswers": [
-                              "Positive for COVID-19",
-                              "Negative for COVID-19",
-                              "Inconclusive",
-                              "Have not received results",
-                              "Not Applicable"
-                        ]
-                  }
-      
-              
-      
+      {
+            "id": 1,
+            "text": "Please enter date of birth.",
+            "group": "initial",
+            "answerType": "DATE"
+      },
+      {
+            "id": 2,
+            "text": "Please enter the Zip code of current location.",
+            "recall": null,
+            "group": "daily",
+            "answerType": "ZIP"
+      },
+      {
+            "id": 3,
+            "text": "Please indicate any underlying medical conditions (select all that apply).",
+            "group": "initial",
+            "answerType": "MULTIPLE_SELECT",
+            "possibleAnswers": [
+                  "Chronic lung disease",
+                  "Moderate to severe asthma",
+                  "Serious heart conditions",
+                  "Immunocompromised",
+                  "Severe obesity (BMI of 40 or higher)",
+                  "Diabetes",
+                  "Chronic kidney disease undergoing dialysis",
+                  "Liver disease",
+                  "None"
+            ]
+      },
+      {
+            "id": 4,
+            "text": "Please indicate any underlying medical conditions (select all that apply).",
+            "group": "initial",
+            "answerType": "MULTIPLE_SELECT",
+            "possibleAnswers": [
+                  "American Indian or Alaska Native",
+                  "Asian",
+                  "Black or African American",
+                  "Hispanic or Latino",
+                  "Native Hawaiian or Other Pacific Islander",
+                  "White",
+                  "Other",
+                  "I prefer not to say"
+            ]
+      },
+      {
+            "id": 5,
+            "text": "Please indicate group.",
+            "group": "initial",
+            "answerType": "SINGLE_SELECT",
+            "possibleAnswers": [
+                  "Finance",
+                  "HR",
+                  "Research & Development",
+                  "Business Operations"
+            ]
+      },
+      {
+            "id": 6,
+            "text": "Please indicate any experience of the following symptoms in the past 72 hours (select all that apply).",
+            "group": "daily",
+            "answerType": "MULTIPLE_SELECT",
+            "possibleAnswers": [
+                  "Shortness of breath",
+                  "Loss of smell or taste",
+                  "Fever > 100.4",
+                  "Chills",
+                  "Muscle pain",
+                  "Vomitting",
+                  "More than 3 loose stools in 24 hours",
+                  "Sore throat",
+                  "Cough",
+                  "Loss of appetite"
+            ]
+      },
+      {
+            "id": 7,
+            "text": "Enter the estimated date of any possible exposure to a case of COVID-19. Or indicate if not applicable",
+            "group": "daily",
+            "answerType": "DATE",
+            "show_skip_option": "TRUE"
+      },
+      {
+            "id": 8,
+            "text": "Ener the date of most recent COVID-19 test and indicate status of results. Select Not Applicable if you have not been tested.",
+            "recall": "04/27/2020",
+            "group": "daily",
+            "answerType": "COVID_TEST",
+            "possibleAnswers": [
+                  "Positive for COVID-19",
+                  "Negative for COVID-19",
+                  "Inconclusive",
+                  "Have not received results",
+                  "Not Applicable"
+            ]
+      }
+
+  
+
 ]
